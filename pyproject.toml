@@ -1,0 +1,10 @@
+[project]
+name = "demo-tryton"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "quart>=0.20.0",
+    "trytond>=7.4.8",
+]
