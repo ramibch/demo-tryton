@@ -5,6 +5,9 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
-    "quart>=0.20.0",
+    "ipdb>=0.13.13",
+    "ipython>=9.0.2",
+    "pyclean>=3.1.0",
+    "quart[dotenv]>=0.20.0",
     "trytond>=7.4.8",
 ]
