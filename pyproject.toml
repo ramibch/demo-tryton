@@ -5,8 +5,11 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+    "aiohttp>=3.11.14",
+    "flask-tryton>=0.12.2",
     "ipdb>=0.13.13",
     "ipython>=9.0.2",
+    "psycopg2-binary>=2.9.10",
     "pyclean>=3.1.0",
     "quart[dotenv]>=0.20.0",
     "trytond>=7.4.8",
